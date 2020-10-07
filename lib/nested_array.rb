@@ -32,7 +32,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  content = martrix[row][column]
+  content = matrix[row][column]
   content
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
